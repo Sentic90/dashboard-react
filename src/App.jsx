@@ -16,9 +16,17 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
+
+          {/* Users */}
           <Route path="/users" element={<List />} />
           <Route path="/users/:userId" element={<Single />} />
           <Route path="/users/new" element={<New />} />
+
+          {/* Products */}
+          <Route path="/products" element={<List />} />
+          <Route path="/products/:productId" element={<Single />} />
+          <Route path="/products/new" element={<New />} />
+
         </Routes>
       </BrowserRouter>
     </div>
