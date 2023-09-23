@@ -1,7 +1,15 @@
 import SpaceDashboardIcon from '@mui/icons-material/SpaceDashboard';
 import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
-import ExitToAppIcon from '@material-ui/icons/ExitToApp';
+import StoreIcon from '@mui/icons-material/Store';
+import ExitToAppIcon from '@mui/icons-material/ExitToApp';
+import {MdStore,MdOutlineDeliveryDining,MdNotificationsActive,
+    MdOutlineHealthAndSafety,MdSettingsSuggest} from 'react-icons/md'
+import {FiPackage} from 'react-icons/fi'
+import {TbReportSearch} from 'react-icons/tb'
+import {ImStatsBars2} from 'react-icons/im'
+import {PiUserLight} from 'react-icons/pi'
+
 import './sidebar.scss'
 
 
@@ -25,42 +33,42 @@ const Sidebar = () => {
                         <span>Users</span>
                     </li>
                     <li>
-                    <RocketLaunchIcon className='icon' />
+                    <MdStore className='icon' />
                         <span>Products</span>
                     </li>
                     <li>
-                        <RocketLaunchIcon className='icon' />
+                        <FiPackage className='icon' />
                         <span>Orders</span>
                     </li>
                     <li>
-                    <RocketLaunchIcon className='icon' />
+                    <MdOutlineDeliveryDining className='icon' />
                         <span>Delivery</span>
                     </li>
                     <p className="title">USEFUL</p>
                     <li>
-                    <RocketLaunchIcon className='icon' />
+                    <ImStatsBars2 className='icon' />
                         <span>Stats</span>
                     </li>
                     <li>
-                    <RocketLaunchIcon className='icon' />
+                    <MdNotificationsActive className='icon' />
                         <span>Notifications</span>
                     </li>
                     <p className="title">SERVICE</p>
                     <li>
-                    <RocketLaunchIcon className='icon' />
+                    <MdOutlineHealthAndSafety className='icon' />
                         <span>System Health</span>
                     </li>
                     <li>
-                    <RocketLaunchIcon className='icon' />
+                    <TbReportSearch className='icon' />
                         <span>Logs</span>
                     </li>
                     <li>
-                    <RocketLaunchIcon className='icon' />
+                    <MdSettingsSuggest className='icon' />
                         <span>Settings</span>
                     </li>
                     <p className="title">USER</p>
                     <li>
-                    <RocketLaunchIcon className='icon' />
+                    <PiUserLight className='icon' />
                         <span>Profile</span>
                     </li>
                     <li>
